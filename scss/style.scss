@@ -1,0 +1,34 @@
+/* GLOBAL RESETS */
+* { box-sizing: border-box; }
+
+// VARIABLES
+$color-text-body: rgba(0,0,0,.8);
+$color-text-headings: rgba(0,0,0,1);
+$color-accent: #003057;
+$color-accent-light: #5b6670;
+$color-accent-gold: #c7973e;
+$color-accent-cream: #f7f5f2;
+$color-accent-neon: #cfff4a;
+$color-accent-red: #ff3300;
+
+$color-lightgrey: rgba(0,0,0,.5);
+
+$font-family-headers: 'neue-haas-grotesk-display', sans-serif;
+$font-family-sans:  'source-sans-pro', Helvetica, Arial, sans-serif;
+$font-family-serif: 'Times New Roman', serif;
+
+//BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1058px;
+$breakpoint-large: 1250px;
+
+// IMPORTS
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/media";
+@import "partials/layout";
+@import "partials/grid";
+@import "partials/structure";
+@import "partials/helpers";
+
