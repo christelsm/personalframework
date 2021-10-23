@@ -132,7 +132,7 @@ hr {
   margin: 1em 0.5em 1em 0;
 }
 .button:hover {
-  border: none;
+  border: 2px solid #ff3300;
   background-color: #ff3300;
 }
 
