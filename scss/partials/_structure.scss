@@ -33,13 +33,14 @@
 
 /* SITE FOOTER */
 .site-footer {
-    background-color: $color-accent-cream;
+    background-color: $color-accent;
     display: flex;
     justify-content: center;
 
     a {
-        color: $color-accent;
+        color: #f7f5f2cc;
         text-decoration: none;
+        &:hover { color: $color-accent-cream;}
     }
 }
 

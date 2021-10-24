@@ -298,7 +298,7 @@ body {
 
 /* SITE FOOTER */
 .site-footer {
-  background-color: #f7f5f2;
+  background-color: #003057;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -307,8 +307,11 @@ body {
           justify-content: center;
 }
 .site-footer a {
-  color: #003057;
+  color: #f7f5f2cc;
   text-decoration: none;
+}
+.site-footer a:hover {
+  color: #f7f5f2;
 }
 
 section {
