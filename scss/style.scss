@@ -10,6 +10,7 @@ $color-accent-gold: #c7973e;
 $color-accent-cream: #f7f5f2;
 $color-accent-neon: #cfff4a;
 $color-accent-red: #ff3300;
+$color-accent-olive: #5d7261;
 
 $color-lightgrey: rgba(0,0,0,.5);
 
@@ -31,4 +32,5 @@ $breakpoint-large: 1250px;
 @import "partials/grid";
 @import "partials/structure";
 @import "partials/helpers";
+@import "partials/sitenav";
 
