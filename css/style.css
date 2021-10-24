@@ -124,7 +124,7 @@ hr {
 /* BUTTONS */
 .button {
   display: inline-block;
-  border: 2px solid #000000;
+  border: 1.5px solid #000000;
   color: black;
   text-decoration: none;
   padding: 1em;
@@ -132,7 +132,7 @@ hr {
   margin: 1em 0.5em 1em 0;
 }
 .button:hover {
-  border: 2px solid #ff3300;
+  border: 1.5px solid #ff3300;
   background-color: #ff3300;
 }
 
@@ -298,7 +298,7 @@ body {
 
 /* SITE FOOTER */
 .site-footer {
-  background-color: #003057;
+  background-color: teal;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -429,7 +429,7 @@ section {
   opacity: 0;
 }
 .site-header .site-nav[data-navstate=open] ul {
-  background-color: #003057;
+  background-color: teal;
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
 }
