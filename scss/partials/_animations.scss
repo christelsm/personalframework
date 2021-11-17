@@ -16,7 +16,7 @@
 .hero[data-sectionstate="inactive"] {
     
     .container * {
-        transition: all 1s ease-out;
+        transition: all 0.4s ease-out;
         opacity: 0;
         transform: translate(0,-20px);
         &:nth-child(1) { transition-delay: .2s;}
